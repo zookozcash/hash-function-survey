@@ -328,21 +328,20 @@ an error in this document, please write to me: zooko@z.cash .
 
 *legend:*:
    * *bit*: the number of bits of output
-   * *cpb*: cycles per byte [*]
+   * *cpb*: cycles per byte
    * *comp*: approximate computation required for the attack
    * *mem*: approximate memory required for the attack
 
-.. [*] Cycles per byte were taken from on ebash's amd64-pluton1mn_,
-       4096-byte blocks, median measurement, except for Tiger, which was
-       is not measured on that machine and was instead taken from ebash's
-       amd64-h9ivy_, and Panama, which is not measured on ebash. For
-       Panama, I measured it on my laptop (an Intel(R) Core(TM) i5-3427U,
-       which is similar to the ebash amd64-h9ivy_ machine) with Crypto++
-       v5.6.2's implementation of Panama. I also measured MD5, SHA-1,
-       SHA-256, SHA-512, SHA-3-256, SHA-3-512, Tiger, Whirlpool, and
-       RIPEMD-160 on my machine and confirmed that their measurements on
-       my machine were similar to the measurements posted from
-       amd64-h9ivy_.
+   Cycles per byte were taken from on ebash's amd64-pluton1mn_, 4096-byte
+   blocks, median measurement, except for Tiger, which was is not
+   measured on that machine and was instead taken from ebash's
+   amd64-h9ivy_, and Panama, which is not measured on ebash. For Panama,
+   I measured it on my laptop (an Intel(R) Core(TM) i5-3427U, which is
+   similar to the ebash amd64-h9ivy_ machine) with Crypto++ v5.6.2's
+   implementation of Panama. I also measured MD5, SHA-1, SHA-256,
+   SHA-512, SHA-3-256, SHA-3-512, Tiger, Whirlpool, and RIPEMD-160 on my
+   machine and confirmed that their measurements on my machine were
+   similar to the measurements posted from amd64-h9ivy_.
 
 .. | Snefru-3 [3]_  |      |          |     | :r:`no`    | 2²⁹  | 2⁰  |       | :r:`no`    | 2⁵⁶  | 2⁰  |       |
 .. +----------------+      |          +-----+------------+------+-----+       +------+-----+------+-----+       +
@@ -362,7 +361,7 @@ an error in this document, please write to me: zooko@z.cash .
        force. This is because MD2's 128-bit output means the brute force
        attack takes only 2⁶⁴ comp and negligible memory to find a
        collision. To do that much comp has become feasible over the last
-       few years. For example, in 2014 the Bitcoin mining network is
+       few years. For example, by 2014 the Bitcoin mining network is
        doing it approximately every 10 minutes [45]_, [46]_!
 
 .. [*] SHA-0 was considered unsafe beginning in 1995, not because of any
