@@ -175,7 +175,8 @@ a practical (second-)pre-image attack. Furthermore, no other
 widely-studied hash function has been shown to be vulnerable to a
 (second-)pre-image attack that is more efficient than brute force, even
 if we were to count attacks too expensive for anyone to actually
-implement!
+implement! (I use the time*memory cost model—see footnote below Figure
+3.)
 
 The history of (second-)pre-image attacks is therefore quite different
 from the history of collision attacks. Most hash functions have been
