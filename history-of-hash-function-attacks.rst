@@ -9,7 +9,10 @@ by Zooko Wilcox, `Zcash`_ and `LeastAuthority`_, 2017-02-24
 .. _`Zcash`: https://z.cash
 .. _`LeastAuthority`: https://LeastAuthority.com
 
-*This document is a work-in-progress. Please contact the author if you see errors or omissions.*
+Updated version is at https://z.cash/technology/history-of-hash-function-attacks.html
+
+This version is no longer maintained.
+
 
 Summary
 =======
