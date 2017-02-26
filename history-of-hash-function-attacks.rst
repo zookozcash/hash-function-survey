@@ -292,7 +292,7 @@ an error in this document, please write to me: zooko@z.cash .
 +----------------------+------+------+-----+------------+------+-----+---------+------------+------+-----+-------+
 | RIPEMD               | 1990 |  128 |  \? | :r:`no`    | 2¹⁸  | 2⁰  | [36]_   | :g:`yes`   |      |     |       |
 +----------------------+------+------+-----+------------+------+-----+---------+------------+------+-----+-------+
-| MD5                  | 1992 |  128 | 5.1 | :r:`no`    | 2²⁴  | 2⁰  | [9]_    | :g:`yes`   | 2¹²³ | 2⁴⁸ | [8]_  |
+| MD5                  | 1992 |  128 | 5.1 | :r:`no`    | 2¹⁸  | 2⁰  | [9]_    | :g:`yes`   | 2¹²³ | 2⁴⁸ | [8]_  |
 +----------------------+------+------+-----+------------+------+-----+---------+------------+------+-----+-------+
 | HAVAL-256-3 [25]_    | 1992 |  256 |  \? | :r:`no`    | 2²⁹  | 2⁰  | [11]_   | :g:`yes`   | 2²²⁵ | 2⁶⁸ | [10]_ |
 +----------------------+------+------+-----+------------+------+-----+---------+------------+------+-----+-------+
@@ -415,7 +415,7 @@ Thanks to Daira Hopwood, Andreas Hülsing, and Samuel Neves for comments on this
 .. [6] http://www.springerlink.com/content/v6526284mu858v37/ Naito-2006
 .. [7] http://eprint.iacr.org/2004/199 Wang-2004 “Collisions for Hash Functions MD4, MD5, HAVAL-128 and RIPEMD”
 .. [8] http://www.springerlink.com/content/d7pm142n58853467/ Sasaki-2009
-.. [9] http://marc-stevens.nl/research/papers/MTh%20Marc%20Stevens%20-%20On%20Collisions%20for%20MD5.pdf Stevens-2007
+.. [9] https://eprint.iacr.org/2013/170 Xie-2013 “Fast Collision Attack on MD5”
 .. [10] http://www.springerlink.com/content/d382324nl16251pp/ Sasaki-2008
 .. [11] http://academic.research.microsoft.com/Publication/676305/cryptanalysis-of-3pass-haval Van-Rompay-2003
 .. [12] http://www.springerlink.com/content/0n9018738x721090/ Yu-2006
